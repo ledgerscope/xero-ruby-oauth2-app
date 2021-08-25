@@ -42,5 +42,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jwt'
 gem 'awesome_print', '1.9.2'
-gem 'xero-ruby', '10.0.0'
 
+source "https://rubygems.pkg.github.com/ledgerscope" do
+  gem "xero-ruby", "3.3.11"
+end
