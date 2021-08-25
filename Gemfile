@@ -40,4 +40,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jwt'
-gem 'xero-ruby'
+
+source "https://rubygems.pkg.github.com/ledgerscope" do
+  gem "xero-ruby", "3.3.11"
+end
